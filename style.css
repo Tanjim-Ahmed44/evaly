@@ -1,0 +1,77 @@
+*{
+  padding:0;
+  margin: 0;
+}
+.wrapper{
+  background:url(https://periodhomestyle.co.uk/wp-content/uploads/2015/06/hardwood_w_lights_by_zyklophon.jpg);
+  background-size:;
+  height:40rem;
+}
+
+.navbar{
+  height:100px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.4;
+}
+h1{
+  font-size: 4rem;
+  color: white;
+  padding-top: 1rem;
+  padding-left: 5rem;
+  opacity:100;
+  
+}
+.navbar ul{
+  float: right;
+  
+}
+.navbar ul li{
+  list-style-type: none;
+  margin-right: 40px;
+  margin-top: -40px;
+
+  
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px; 
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bold; 
+  margin: 7px;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+  background: rgb(133, 4, 4);
+  border: 2px solid white;
+
+}
+.wrapper .center{
+  text-align: center;
+  margin-top:10%;
+}
+.buttons button{
+  padding:10px;
+  font-size:20px;
+  font-weight: bold;
+  border: 2px solid red;
+  border-radius: 20px;
+
+}
+.buttons{
+ margin-top: 3rem;
+ margin-left: 80px;
+
+}
+.buttons button:hover{
+  background: darkblue;
+  color: white;
+  cursor: pointer;
+}
+.btn{
+  margin-left: 20px;
+}
